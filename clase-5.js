@@ -72,3 +72,7 @@ let obtenerCircunferencia = function (radio) {
   return calcularCircunferencia;
 };
 console.log(obtenerCircunferencia(5));
+
+const pruebaScope = () => (palabra = "casa");
+const resultadoPruebaSocope = pruebaScope();
+console.log(resultadoPruebaSocope);
